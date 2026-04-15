@@ -134,7 +134,7 @@ button{font-family:inherit}
   padding:16px 40px;
   display:flex;align-items:center;justify-content:space-between;gap:var(--s4);
   background:var(--green);
-  min-height:76px;
+  min-height:96px;
   flex-shrink:0;
   box-shadow:0 4px 12px rgba(0,0,0,.2);
   isolation:isolate;
@@ -145,7 +145,7 @@ button{font-family:inherit}
 .nav-logo{
   display:flex;align-items:center;text-decoration:none;
 }
-.nav-logo img{height:120px;width:120px;min-height:120px;min-width:120px;border-radius:50%;flex-shrink:0;object-fit:cover;margin:-24px 0}
+.nav-logo img{height:72px;width:72px;min-height:72px;min-width:72px;border-radius:50%;flex-shrink:0;object-fit:cover}
 .nav-logo-text,.nav-logo-sub{display:none}
 
 .nav-links{display:flex;list-style:none;gap:32px}
