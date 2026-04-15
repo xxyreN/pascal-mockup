@@ -147,21 +147,12 @@
     });
   }
 
-  /* ============ NAV SCROLL EFFECT ============ */
+  /* ============ NAV SCROLL EFFECT — shadow only, no hide/resize ============ */
   var nav = document.querySelector('.nav');
   if(nav){
-    var lastY = 0;
     window.addEventListener('scroll', function(){
-      var y = window.pageYOffset;
-      if(y > 80){
-        nav.classList.add('nav-scrolled');
-        if(y > lastY && y > 200) nav.classList.add('nav-hidden');
-        else nav.classList.remove('nav-hidden');
-      } else {
-        nav.classList.remove('nav-scrolled');
-        nav.classList.remove('nav-hidden');
-      }
-      lastY = y;
+      if(window.pageYOffset > 80) nav.classList.add('nav-scrolled');
+      else nav.classList.remove('nav-scrolled');
     });
   }
 
