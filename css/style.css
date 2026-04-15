@@ -683,8 +683,9 @@ em{font-style:italic;color:var(--green)}
   display:flex;align-items:center;gap:24px;flex-shrink:0;
 }
 .carta-brunch-banner .banner-price{
-  font-family:var(--font-mono);font-size:clamp(28px,4vw,40px);
-  color:var(--terra);font-weight:600;opacity:.8;
+  font-family:var(--font-display);font-size:clamp(32px,4.5vw,48px);
+  color:var(--cream);font-weight:700;font-style:italic;
+  text-shadow:0 2px 8px rgba(0,0,0,.2);
 }
 .carta-brunch-banner .banner-cta{
   display:inline-flex;align-items:center;gap:8px;
