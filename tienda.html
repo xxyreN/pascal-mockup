@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es" class="lang-es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Tienda · Pascal · Specialty Coffee & Brunch</title>
+  <meta name="description" content="Pedir online de Pascal Café — café en grano de Hidden Coffee Roasters, merch, packs de regalo. Envío a toda España.">
+  <link rel="icon" type="image/png" href="img/pascal-logo-circle.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div class="concept-banner">
+  <strong>Concepto</strong><span class="sep">&middot;</span>
+  <span data-es>Diseño no oficial</span><span data-en>Unofficial design</span>
+</div>
+<div class="banner-spacer"></div>
+<div class="scroll-progress"></div>
+<div class="custom-cursor"></div>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo"><img src="img/pascal-logo-circle.png" alt="Pascal"></a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-es>Inicio</a><a href="index.html" data-en>Home</a></li>
+    <li><a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a></li>
+    <li><a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a></li>
+    <li><a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a></li>
+    <li><a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="nav-cart" aria-label="Cart">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      <span class="cart-count"></span>
+    </button>
+    <div class="lang-toggle">
+      <button data-lang="en">EN</button><span class="sep">&middot;</span><button data-lang="es">ES</button>
+    </div>
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html" data-es>Inicio</a><a href="index.html" data-en>Home</a>
+  <a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a>
+  <a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a>
+  <a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a>
+  <a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a>
+</div>
+
+<!-- ============ SHOP HERO ============ -->
+<section class="shop-hero">
+  <span class="section-label reveal" data-es>Pedir online</span>
+  <span class="section-label reveal" data-en>Order online</span>
+  <h1 class="display-l reveal" data-es>Tu <em>pedido.</em></h1>
+  <h1 class="display-l reveal" data-en>Your <em>order.</em></h1>
+  <p class="reveal" data-es>Monta tu pedido y recógelo en el local. Sin esperas, sin colas.</p>
+  <p class="reveal" data-en>Build your order and pick it up at the café. No waiting, no queues.</p>
+</section>
+
+<!-- ============ FILTERS ============ -->
+<div class="shop-controls reveal">
+  <button class="filter-btn active" data-cat="all" data-es>Todo</button>
+  <button class="filter-btn active" data-cat="all" data-en>All</button>
+  <button class="filter-btn" data-cat="brunch">Brunch</button>
+  <button class="filter-btn" data-cat="cafe" data-es>Café</button>
+  <button class="filter-btn" data-cat="cafe" data-en>Coffee</button>
+  <button class="filter-btn" data-cat="dulce" data-es>Dulce</span></button>
+  <button class="filter-btn" data-cat="dulce" data-en>Sweet</button>
+  <button class="filter-btn" data-cat="bebida" data-es>Bebidas</button>
+  <button class="filter-btn" data-cat="bebida" data-en>Drinks</button>
+</div>
+
+<!-- ============ PRODUCT GRID ============ -->
+<div class="shop-grid-wrap">
+  <div class="shop-grid stagger-children">
+
+    <!-- BRUNCH -->
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img">
+        <img src="img/food-avocado-toast.jpg" alt="Avocado Toast">
+        <span class="card-badge" data-es>Popular</span>
+        <span class="card-badge" data-en>Popular</span>
+      </div>
+      <div class="product-body">
+        <div class="product-name">Avocado Toast</div>
+        <p class="product-desc" data-es>Limón, pistachos, hierbas frescas.</p>
+        <p class="product-desc" data-en>Lemon zest, pistachios, fresh herbs.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;9.00</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img">
+        <img src="img/food-eggs-benedict.jpg" alt="Eggs Benedict">
+      </div>
+      <div class="product-body">
+        <div class="product-name">Eggs Benedict</div>
+        <p class="product-desc" data-es>Pan mollete o croissant, con bacon o salmón.</p>
+        <p class="product-desc" data-en>Mollete bread or croissant, with bacon or salmon.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;12.60</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img">
+        <img src="img/food-cold-cuts.jpg" alt="Huevos Turcos">
+      </div>
+      <div class="product-body">
+        <div class="product-name">Huevos Turcos</div>
+        <p class="product-desc" data-es>Yogur, ajo, mantequilla spicy, cacahuete.</p>
+        <p class="product-desc" data-en>Yogurt, garlic, chili butter, peanuts.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;9.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img">
+        <img src="img/food-sandwich.jpg" alt="Chegusan">
+        <span class="card-badge" data-es>Nuevo</span>
+        <span class="card-badge" data-en>New</span>
+      </div>
+      <div class="product-body">
+        <div class="product-name">Chegusan</div>
+        <p class="product-desc" data-es>Pollo, mozza, pesto, cebolla.</p>
+        <p class="product-desc" data-en>Chicken, mozzarella, pesto, onion.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;14.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img">
+        <img src="img/food-croissant-benedict.jpg" alt="Grilled Cheese">
+      </div>
+      <div class="product-body">
+        <div class="product-name">Grilled Cheese</div>
+        <p class="product-desc" data-es>Sandwich de quesos varios y pesto.</p>
+        <p class="product-desc" data-en>Cheese variety sandwich and pesto.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;12.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img">
+        <img src="img/food-katsu-sando.jpg" alt="Burrata Ibérica">
+      </div>
+      <div class="product-body">
+        <div class="product-name">Burrata Ibérica</div>
+        <p class="product-desc" data-es>Uvas, stracciatella, serrano, pistacho.</p>
+        <p class="product-desc" data-en>Grapes, stracciatella, serrano ham, pistachio.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;12.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img"><img src="img/food-avocado-toast.jpg" alt="Quinoa Bowl"></div>
+      <div class="product-body">
+        <div class="product-name">Quinoa Bowl</div>
+        <p class="product-desc" data-es>Tabbouleh, boniato, aguacate, cherry, pesto.</p>
+        <p class="product-desc" data-en>Tabbouleh, sweet potato, avocado, cherry, pesto.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;11.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img"><img src="img/food-sandwich.jpg" alt="Granola Bowl"></div>
+      <div class="product-body">
+        <div class="product-name">Granola Bowl</div>
+        <p class="product-desc" data-es>Yogur, granola casera, fruta de estación, miel, crema de cacahuate.</p>
+        <p class="product-desc" data-en>Yogurt, house granola, seasonal fruit, honey, peanut butter.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;8.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="brunch">
+      <div class="card-img"><img src="img/food-cold-cuts.jpg" alt="Babaganoush"></div>
+      <div class="product-body">
+        <div class="product-name">Babaganoush</div>
+        <p class="product-desc" data-es>Berenjena asada, tahini, hierbas, granada, pan.</p>
+        <p class="product-desc" data-en>Roasted eggplant, tahini, herbs, pomegranate, bread.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;9.00</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- DULCE -->
+    <div class="product-card tilt-card stagger-item" data-cat="dulce">
+      <div class="card-img"><img src="img/food-croissant-benedict.jpg" alt="Pancakes"></div>
+      <div class="product-body">
+        <div class="product-name">Pancakes</div>
+        <p class="product-desc" data-es>Arándanos & Mascarpone · Caramelo & Plátano · Pistacho & Arándanos</p>
+        <p class="product-desc" data-en>Blueberry & Mascarpone · Caramel & Banana · Pistachio & Blueberry</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;10.80</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="dulce">
+      <div class="card-img"><img src="img/food-eggs-benedict.jpg" alt="Pancake Americano"></div>
+      <div class="product-body">
+        <div class="product-name">Pancake Americano</div>
+        <p class="product-desc" data-es>Bacon, sirope, mantequilla.</p>
+        <p class="product-desc" data-en>Bacon, syrup, butter.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;10.80</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="dulce">
+      <div class="card-img"><img src="img/food-katsu-sando.jpg" alt="Brownie con Helado"></div>
+      <div class="product-body">
+        <div class="product-name">Brownie con Helado</div>
+        <p class="product-desc" data-es>Brownie caliente, helado, caramelo salado, cacahuetes.</p>
+        <p class="product-desc" data-en>Hot brownie, gelato, salted caramel, peanuts.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;6.00</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAFÉ -->
+    <div class="product-card tilt-card stagger-item" data-cat="cafe">
+      <div class="card-img"><img src="img/food-avocado-toast.jpg" alt="Flat White"></div>
+      <div class="product-body">
+        <div class="product-name">Flat White</div>
+        <p class="product-desc">Hidden Coffee Roasters</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;3.60</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="cafe">
+      <div class="card-img"><img src="img/food-sandwich.jpg" alt="Cappuccino"></div>
+      <div class="product-body">
+        <div class="product-name">Cappuccino</div>
+        <p class="product-desc">Hidden Coffee Roasters</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;3.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="cafe">
+      <div class="card-img"><img src="img/food-cold-cuts.jpg" alt="V60"></div>
+      <div class="product-body">
+        <div class="product-name">V60 Poursteady</div>
+        <p class="product-desc" data-es>Filtrado automático — una de dos en España.</p>
+        <p class="product-desc" data-en>Automated pour-over — one of two in Spain.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;4.00</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="cafe">
+      <div class="card-img"><img src="img/food-eggs-benedict.jpg" alt="Matcha Latte"></div>
+      <div class="product-body">
+        <div class="product-name">Matcha Latte</div>
+        <div class="product-footer">
+          <span class="product-price">&euro;4.60</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEBIDAS -->
+    <div class="product-card tilt-card stagger-item" data-cat="bebida">
+      <div class="card-img"><img src="img/food-croissant-benedict.jpg" alt="Mimosa"></div>
+      <div class="product-body">
+        <div class="product-name">Mimosa</div>
+        <p class="product-desc" data-es>Base zumo de naranja natural.</p>
+        <p class="product-desc" data-en>Fresh orange juice base.</p>
+        <div class="product-footer">
+          <span class="product-price">&euro;4.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="bebida">
+      <div class="card-img"><img src="img/food-katsu-sando.jpg" alt="Aperol Spritz"></div>
+      <div class="product-body">
+        <div class="product-name">Aperol Spritz</div>
+        <div class="product-footer">
+          <span class="product-price">&euro;7.50</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card tilt-card stagger-item" data-cat="bebida">
+      <div class="card-img"><img src="img/food-sandwich.jpg" alt="Smoothie Açaí"></div>
+      <div class="product-body">
+        <div class="product-name" data-es>Smoothie Açaí & Frutos Rojos</div>
+        <div class="product-name" data-en>Açaí & Berries Smoothie</div>
+        <div class="product-footer">
+          <span class="product-price">&euro;7.00</span>
+          <button class="add-to-cart" data-es>Añadir</button>
+          <button class="add-to-cart" data-en>Add</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo"><img src="img/pascal-logo-circle.png" alt="Pascal"></div>
+      <p data-es>Specialty coffee & brunch de autor en Lavapiés, Madrid.</p>
+      <p data-en>Specialty coffee & signature brunch in Lavapiés, Madrid.</p>
+    </div>
+    <div>
+      <h4 data-es>Navegar</h4><h4 data-en>Navigate</h4>
+      <ul>
+        <li><a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a></li>
+        <li><a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a></li>
+        <li><a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a></li>
+        <li><a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-es>Contacto</h4><h4 data-en>Contact</h4>
+      <ul>
+        <li><a href="tel:+34696533662">+34 696 53 36 62</a></li>
+        <li><a href="mailto:pascal@equipomeson.com">pascal@equipomeson.com</a></li>
+        <li><a href="https://instagram.com/pascal.cafe" target="_blank">@pascal.cafe</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Equipo Mesón</h4>
+      <ul>
+        <li><a href="#">Pascal Coffee & Brunch</a></li>
+        <li><a href="#">Lizandro</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Pascal — Equipo Mesón</span>
+    <span data-es>Concepto por <a href="https://obradorweb.com" target="_blank" style="color:var(--terra);text-decoration:none">Obrador</a></span>
+    <span data-en>Concept by <a href="https://obradorweb.com" target="_blank" style="color:var(--terra);text-decoration:none">Obrador</a></span>
+  </div>
+</footer>
+
+<!-- Cart sidebar -->
+<div class="cart-overlay"></div>
+<div class="cart-sidebar">
+  <div class="cart-header">
+    <h3 data-es>Tu carrito</h3><h3 data-en>Your cart</h3>
+    <button class="cart-close">&times;</button>
+  </div>
+  <div class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span class="total-label">Total</span>
+      <span class="total-price">&euro;0.00</span>
+    </div>
+    <button class="checkout-btn" data-es>Tramitar pedido</button>
+    <button class="checkout-btn" data-en>Checkout</button>
+  </div>
+</div>
+
+<script src="js/lang.js"></script>
+<script src="js/shop.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>

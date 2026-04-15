@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es" class="lang-es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Carta · Pascal · Specialty Coffee & Brunch</title>
+  <meta name="description" content="Carta de Pascal Café — brunch de autor, specialty coffee, repostería casera. Lavapiés, Madrid.">
+  <link rel="icon" type="image/png" href="img/pascal-logo-circle.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div class="concept-banner">
+  <strong>Concepto</strong><span class="sep">&middot;</span>
+  <span data-es>Diseño no oficial</span><span data-en>Unofficial design</span>
+</div>
+<div class="banner-spacer"></div>
+<div class="scroll-progress"></div>
+<div class="custom-cursor"></div>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo"><img src="img/pascal-logo-circle.png" alt="Pascal"></a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-es>Inicio</a><a href="index.html" data-en>Home</a></li>
+    <li><a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a></li>
+    <li><a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a></li>
+    <li><a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a></li>
+    <li><a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="nav-cart" aria-label="Cart">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      <span class="cart-count"></span>
+    </button>
+    <div class="lang-toggle">
+      <button data-lang="en">EN</button><span class="sep">&middot;</span><button data-lang="es">ES</button>
+    </div>
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html" data-es>Inicio</a><a href="index.html" data-en>Home</a>
+  <a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a>
+  <a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a>
+  <a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a>
+  <a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a>
+</div>
+
+<!-- ============ CARTA HERO ============ -->
+<section class="carta-hero">
+  <span class="section-label" data-es>Brunch &amp; café</span>
+  <span class="section-label" data-en>Brunch &amp; coffee</span>
+  <h1 class="display-l" data-es>La <em>carta.</em></h1>
+  <h1 class="display-l" data-en>The <em>menu.</em></h1>
+  <p data-es>&laquo;Fresca, estacional, con raíces argentinas y alma berlinesa.&raquo;</p>
+  <p data-en>&laquo;Fresh, seasonal, with Argentine roots and a Berlin soul.&raquo;</p>
+</section>
+
+<!-- ============ FULL CARTA PAGE ============ -->
+<div class="carta-page-bg">
+
+  <!-- Brunch for One — horizontal banner -->
+  <div class="carta-brunch-banner reveal">
+    <div class="banner-left">
+      <span class="banner-tag" data-es>Destacado</span>
+      <span class="banner-tag" data-en>Featured</span>
+      <h2 class="banner-title"><em>Brunch</em> for One</h2>
+      <p class="banner-desc" data-es>El brunch completo: huevos al gusto, tostada de aguacate, pancakes con frutos rojos, zumo natural y café de especialidad.</p>
+      <p class="banner-desc" data-en>The complete brunch: eggs your way, avocado toast, pancakes with berries, fresh juice and specialty coffee.</p>
+    </div>
+    <div class="banner-right">
+      <span class="banner-price">&euro;20.50</span>
+      <a href="tienda.html" class="banner-cta" data-es>Pedir &rarr;</a>
+      <a href="tienda.html" class="banner-cta" data-en>Order &rarr;</a>
+    </div>
+  </div>
+
+  <!-- La Carta heading -->
+  <h2 class="carta-heading" data-es>La <em>Carta</em></h2>
+  <h2 class="carta-heading" data-en>The <em>Menu</em></h2>
+
+  <!-- Menu grid -->
+  <div class="carta-grid">
+
+    <!-- BOX: Principales -->
+    <section class="carta-section reveal">
+      <h2>Principales</h2>
+      <div class="carta-subtitle" data-es>Platos principales</div>
+      <div class="carta-subtitle" data-en>Mains</div>
+        <div class="carta-items">
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Avocado Toast</span>
+              <span class="carta-item-price">&euro;9.00</span>
+            </div>
+            <p class="carta-item-desc" data-es>Limón, pistachos, hierbas frescas.</p>
+            <p class="carta-item-desc" data-en>Lemon zest, pistachios, fresh herbs.</p>
+            <p class="carta-item-extras" data-es>Huevo +<strong>&euro;1.5</strong> · Salmón +<strong>&euro;3.0</strong> · Burrata +<strong>&euro;3.0</strong> · Bacon +<strong>&euro;2.0</strong></p>
+            <p class="carta-item-extras" data-en>Egg +<strong>&euro;1.5</strong> · Salmon +<strong>&euro;3.0</strong> · Burrata +<strong>&euro;3.0</strong> · Bacon +<strong>&euro;2.0</strong></p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Eggs Benedict</span>
+              <span class="carta-item-price">&euro;12.60</span>
+            </div>
+            <p class="carta-item-desc" data-es>Elegí como acompañar tus huevos: pan mollete o croissant, con bacon o salmón.</p>
+            <p class="carta-item-desc" data-en>Choose your style: mollete bread or croissant, with bacon or salmon.</p>
+            <p class="carta-item-extras">Guacamole +<strong>&euro;2.5</strong></p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Huevos Turcos</span>
+              <span class="carta-item-price">&euro;9.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>Yogur, ajo, mantequilla spicy, cacahuete.</p>
+            <p class="carta-item-desc" data-en>Yogurt, garlic, chili butter, peanuts.</p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Granola Bowl</span>
+              <span class="carta-item-price">&euro;8.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>Yogur, granola casera, fruta de estación, miel, crema de cacahuate.</p>
+            <p class="carta-item-desc" data-en>Yogurt, house granola, seasonal fruit, honey, peanut butter.</p>
+            <p class="carta-item-extras">Açaí +<strong>&euro;1.8</strong> · Extra granola +<strong>&euro;1.5</strong></p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Burrata Ibérica</span>
+              <span class="carta-item-price">&euro;12.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>Uvas, stracciatella, serrano, pistacho.</p>
+            <p class="carta-item-desc" data-en>Grapes, stracciatella, serrano ham, pistachio.</p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Grilled Cheese</span>
+              <span class="carta-item-price">&euro;12.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>Sandwich de quesos varios y pesto.</p>
+            <p class="carta-item-desc" data-en>Cheese variety sandwich and pesto.</p>
+            <p class="carta-item-extras">Guacamole +<strong>&euro;2.5</strong> · Bacon +<strong>&euro;2.0</strong> · Cebolla dulce +<strong>&euro;2.0</strong></p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Chegusan</span>
+              <span class="carta-item-price">&euro;14.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>Pollo, mozza, pesto, cebolla.</p>
+            <p class="carta-item-desc" data-en>Chicken, mozzarella, pesto, onion.</p>
+            <p class="carta-item-extras">Guacamole +<strong>&euro;2.5</strong> · Bacon +<strong>&euro;2.0</strong> · Burrata +<strong>&euro;3.0</strong></p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Quinoa Bowl</span>
+              <span class="carta-item-price">&euro;11.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>Tabbouleh, boniato, aguacate, cherry, pesto.</p>
+            <p class="carta-item-desc" data-en>Tabbouleh, sweet potato, avocado, cherry tomatoes, pesto.</p>
+            <p class="carta-item-extras" data-es>Huevo +<strong>&euro;1.5</strong> · Pollo +<strong>&euro;2.0</strong> · Salmón +<strong>&euro;3.0</strong></p>
+            <p class="carta-item-extras" data-en>Egg +<strong>&euro;1.5</strong> · Chicken +<strong>&euro;2.0</strong> · Salmon +<strong>&euro;3.0</strong></p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Babaganoush</span>
+              <span class="carta-item-price">&euro;9.00</span>
+            </div>
+            <p class="carta-item-desc" data-es>Berenjena asada, tahini, hierbas, granada, pan.</p>
+            <p class="carta-item-desc" data-en>Roasted eggplant, tahini, herbs, pomegranate, bread.</p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Pan Tumaca</span>
+              <span class="carta-item-price">&euro;5.80</span>
+            </div>
+            <p class="carta-item-desc" data-es>Puré de tomate, cherry asados, AOVE, sal.</p>
+            <p class="carta-item-desc" data-en>Tomato puree, roasted cherry tomatoes, olive oil, salt.</p>
+            <p class="carta-item-extras">Serrano +<strong>&euro;1.5</strong></p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Croissant</span>
+              <span class="carta-item-price">&euro;5.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>York y queso, o mermelada y mantequilla.</p>
+            <p class="carta-item-desc" data-en>Ham & cheese, or jam & butter.</p>
+            <p class="carta-item-extras">Serrano +<strong>&euro;1.5</strong> · Guacamole +<strong>&euro;2.5</strong> · Huevo +<strong>&euro;1.5</strong> · Salmón +<strong>&euro;3.0</strong></p>
+          </div>
+        </div>
+    </section>
+
+    <!-- BOX: Café e Infusión -->
+    <section class="carta-section reveal">
+      <h2>Café e Infusión</h2>
+      <div class="carta-subtitle">Coffee & Tea</div>
+      <div class="carta-items">
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Espresso</span><span class="carta-item-price">&euro;2.20 · &euro;2.90</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Cortado</span><span class="carta-item-price">&euro;2.50</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Café con Leche</span><span class="carta-item-price">&euro;2.80</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Americano</span><span class="carta-item-price">&euro;2.70 · &euro;3.00</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Flat White</span><span class="carta-item-price">&euro;3.60</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Latte</span><span class="carta-item-price">&euro;3.50 · XL &euro;4.30</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Cappuccino</span><span class="carta-item-price">&euro;3.50 · XL &euro;4.30</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">V60</span><span class="carta-item-price">&euro;4.00</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Caramel Latte</span><span class="carta-item-price">&euro;3.50</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Choco Latte</span><span class="carta-item-price">&euro;3.50</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Mocca Choco</span><span class="carta-item-price">&euro;3.90</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Matcha Latte</span><span class="carta-item-price">&euro;4.60</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Homemade Chai Latte</span><span class="carta-item-price">&euro;4.00</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name">Affogato</span><span class="carta-item-price">&euro;4.00</span></div></div>
+        <div class="carta-item"><div class="carta-item-head"><span class="carta-item-name" data-es>Bebida de Temporada</span><span class="carta-item-name" data-en>Seasonal Drink</span><span class="carta-item-price">&euro;4.50</span></div></div>
+        <div class="carta-item">
+          <div class="carta-item-head"><span class="carta-item-name">Té</span><span class="carta-item-price">&euro;2.50</span></div>
+          <p class="carta-item-desc" data-es>Limón & jengibre, hierbabuena, verde, manzanilla, frutos rojos, negro.</p>
+          <p class="carta-item-desc" data-en>Lemon & ginger, spearmint, green, chamomile, berries, black.</p>
+        </div>
+      </div>
+      <p class="carta-item-extras" style="margin-top:16px" data-es>Leche avena +<strong>&euro;0.3</strong> · Shot leche +<strong>&euro;0.2</strong> · Shot café +<strong>&euro;1</strong> · Vainilla +<strong>&euro;1</strong> · Take away +<strong>&euro;0.2</strong></p>
+      <p class="carta-item-extras" style="margin-top:16px" data-en>Oat milk +<strong>&euro;0.3</strong> · Milk shot +<strong>&euro;0.2</strong> · Coffee shot +<strong>&euro;1</strong> · Vanilla +<strong>&euro;1</strong> · Take away +<strong>&euro;0.2</strong></p>
+    </section>
+
+    <!-- BOX: Dulce -->
+    <section class="carta-section reveal">
+      <h2>Dulce</h2>
+      <div class="carta-subtitle">Sweet</div>
+        <div class="carta-items">
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Pancakes</span>
+              <span class="carta-item-price">&euro;10.80</span>
+            </div>
+            <p class="carta-item-desc" data-es>Arándanos & Mascarpone · Caramelo, Cacahuate & Plátano · Pistacho & Arándanos</p>
+            <p class="carta-item-desc" data-en>Blueberry & Mascarpone · Caramel, Peanut & Banana · Pistachio & Blueberry</p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Pancake Americano</span>
+              <span class="carta-item-price">&euro;10.80</span>
+            </div>
+            <p class="carta-item-desc" data-es>Bacon, sirope, mantequilla.</p>
+            <p class="carta-item-desc" data-en>Bacon, syrup, butter.</p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Brownie con Helado</span>
+              <span class="carta-item-price">&euro;6.00</span>
+            </div>
+            <p class="carta-item-desc" data-es>Brownie caliente, helado, caramelo salado, cacahuetes.</p>
+            <p class="carta-item-desc" data-en>Hot brownie, gelato, salted caramel, peanuts.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- BOX: Bebidas frías -->
+    <section class="carta-section reveal">
+      <h2>Bebidas Frías</h2>
+      <div class="carta-subtitle">Cold Drinks</div>
+        <div class="carta-items">
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Iced Coffee</span>
+              <span class="carta-item-price">&euro;4.60</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Iced Latte</span>
+              <span class="carta-item-price">&euro;4.60</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Iced Matcha</span>
+              <span class="carta-item-price">&euro;4.60</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Berries Iced Tea</span>
+              <span class="carta-item-price">&euro;3.80</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Kombucha</span>
+              <span class="carta-item-price">&euro;4.60</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Agua con/sin gas</span>
+              <span class="carta-item-name" data-en>Still/Sparkling water</span>
+              <span class="carta-item-price">&euro;3.00</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Refrescos</span>
+              <span class="carta-item-price">&euro;3.50</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- BOX: Zumos & Smoothies -->
+    <section class="carta-section reveal">
+      <h2>Zumos & Smoothies</h2>
+      <div class="carta-subtitle">Juices & Smoothies</div>
+        <div class="carta-items">
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Naranja</span>
+              <span class="carta-item-price">&euro;3.60</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Remolacha, naranja, zanahoria</span>
+              <span class="carta-item-name" data-en>Beetroot, orange, carrot</span>
+              <span class="carta-item-price">&euro;5.30</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Espinaca, apio, jengibre</span>
+              <span class="carta-item-name" data-en>Spinach, celery, ginger</span>
+              <span class="carta-item-price">&euro;5.30</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Fresa, naranja, hierbabuena</span>
+              <span class="carta-item-name" data-en>Strawberry, orange, spearmint</span>
+              <span class="carta-item-price">&euro;5.30</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Limón, jengibre, hierbabuena</span>
+              <span class="carta-item-name" data-en>Lemon, ginger, spearmint</span>
+              <span class="carta-item-price">&euro;5.30</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Smoothie Açaí & Frutos Rojos</span>
+              <span class="carta-item-name" data-en>Açaí & Berries Smoothie</span>
+              <span class="carta-item-price">&euro;7.00</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Smoothie Mango & Plátano</span>
+              <span class="carta-item-name" data-en>Mango & Banana Smoothie</span>
+              <span class="carta-item-price">&euro;7.00</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Smoothie Piña & Espinaca</span>
+              <span class="carta-item-name" data-en>Pineapple & Spinach Smoothie</span>
+              <span class="carta-item-price">&euro;7.00</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- BOX: Bebidas -->
+    <section class="carta-section reveal">
+      <h2>Bebidas</h2>
+      <div class="carta-subtitle">Beverages</div>
+        <div class="carta-items">
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Mahou Clásica</span>
+              <span class="carta-item-price">&euro;4.00</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Vermut</span>
+              <span class="carta-item-price">&euro;3.50</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name" data-es>Vino (Copa / Botella)</span>
+              <span class="carta-item-name" data-en>Wine (Glass / Bottle)</span>
+              <span class="carta-item-price">&euro;4.00 · &euro;16</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Mimosa</span>
+              <span class="carta-item-price">&euro;4.50</span>
+            </div>
+            <p class="carta-item-desc" data-es>Base zumo de naranja natural.</p>
+            <p class="carta-item-desc" data-en>Fresh orange juice base.</p>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Aperol Spritz</span>
+              <span class="carta-item-price">&euro;7.50</span>
+            </div>
+          </div>
+          <div class="carta-item">
+            <div class="carta-item-head">
+              <span class="carta-item-name">Sangría</span>
+              <span class="carta-item-price">&euro;6.50</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+  </div>
+
+  </div><!-- /carta-grid -->
+
+  <!-- Counter note -->
+  <div class="carta-counter">
+    <p data-es>Para más cositas ricas acércate a nuestro mostrador</p>
+    <p data-en>Check out our counter for more delicious things</p>
+  </div>
+
+</div><!-- /carta-page-bg -->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo"><img src="img/pascal-logo-circle.png" alt="Pascal"></div>
+      <p data-es>Specialty coffee & brunch de autor en Lavapiés, Madrid.</p>
+      <p data-en>Specialty coffee & signature brunch in Lavapiés, Madrid.</p>
+    </div>
+    <div>
+      <h4 data-es>Navegar</h4><h4 data-en>Navigate</h4>
+      <ul>
+        <li><a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a></li>
+        <li><a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a></li>
+        <li><a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a></li>
+        <li><a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-es>Contacto</h4><h4 data-en>Contact</h4>
+      <ul>
+        <li><a href="tel:+34696533662">+34 696 53 36 62</a></li>
+        <li><a href="mailto:pascal@equipomeson.com">pascal@equipomeson.com</a></li>
+        <li><a href="https://instagram.com/pascal.cafe" target="_blank">@pascal.cafe</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Equipo Mesón</h4>
+      <ul>
+        <li><a href="#">Pascal Coffee & Brunch</a></li>
+        <li><a href="#">Lizandro</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Pascal — Equipo Mesón</span>
+    <span data-es>Concepto por <a href="https://obradorweb.com" target="_blank" style="color:var(--terra);text-decoration:none">Obrador</a></span>
+    <span data-en>Concept by <a href="https://obradorweb.com" target="_blank" style="color:var(--terra);text-decoration:none">Obrador</a></span>
+  </div>
+</footer>
+
+<!-- Cart sidebar -->
+<div class="cart-overlay"></div>
+<div class="cart-sidebar">
+  <div class="cart-header">
+    <h3 data-es>Tu carrito</h3><h3 data-en>Your cart</h3>
+    <button class="cart-close">&times;</button>
+  </div>
+  <div class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span class="total-label">Total</span>
+      <span class="total-price">&euro;0.00</span>
+    </div>
+    <button class="checkout-btn" data-es>Tramitar pedido</button>
+    <button class="checkout-btn" data-en>Checkout</button>
+  </div>
+</div>
+
+<script src="js/lang.js"></script>
+<script src="js/shop.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>

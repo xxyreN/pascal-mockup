@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es" class="lang-es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Pascal · Specialty Coffee & Brunch · Lavapiés, Madrid</title>
+  <meta name="description" content="Specialty coffee y brunch de autor en el corazón de Lavapiés. Café de Hidden Coffee Roasters, brunch inspirado en Berlín, y una de las dos Poursteady V60 de España.">
+  <link rel="icon" type="image/png" href="img/pascal-logo-circle.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<!-- Concept banner -->
+<div class="concept-banner">
+  <strong>Concepto</strong><span class="sep">&middot;</span>
+  <span data-es>Diseño no oficial — esto es un concepto de diseño</span>
+  <span data-en>Unofficial design — this is a design concept</span>
+</div>
+<div class="banner-spacer"></div>
+<div class="scroll-progress"></div>
+<div class="custom-cursor"></div>
+
+<!-- Nav -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo"><img src="img/pascal-logo-circle.png" alt="Pascal"></a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-es>Inicio</a><a href="index.html" data-en>Home</a></li>
+    <li><a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a></li>
+    <li><a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a></li>
+    <li><a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a></li>
+    <li><a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="nav-cart" aria-label="Cart">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+      <span class="cart-count"></span>
+    </button>
+    <div class="lang-toggle">
+      <button data-lang="en">EN</button><span class="sep">&middot;</span><button data-lang="es">ES</button>
+    </div>
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu">
+  <a href="index.html" data-es>Inicio</a><a href="index.html" data-en>Home</a>
+  <a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a>
+  <a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a>
+  <a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a>
+  <a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a>
+</div>
+
+<!-- ============ HERO — FULL BLEED ============ -->
+<section class="hero">
+  <div class="hero-bg">
+    <video autoplay muted loop playsinline poster="img/food-avocado-toast.jpg">
+      <source src="img/pascal-pancakes.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <div class="hero-overline">
+      <span data-es>Lavapiés, Madrid · Specialty coffee · Brunch de autor</span>
+      <span data-en>Lavapiés, Madrid · Specialty coffee · Signature brunch</span>
+    </div>
+    <h1 class="hero-title" data-es>De Buenos Aires<br>a Berlín.<br>De Berlín a <em>Lavapiés.</em></h1>
+    <h1 class="hero-title" data-en>From Buenos Aires<br>to Berlin.<br>From Berlin to <em>Lavapiés.</em></h1>
+    <p class="hero-sub" data-es>Café de especialidad, brunch de autor, y una de las dos Poursteady V60 automáticas de España. Granos de Hidden Coffee Roasters.</p>
+    <p class="hero-sub" data-en>Specialty coffee, signature brunch, and one of only two Poursteady V60 machines in Spain. Beans by Hidden Coffee Roasters.</p>
+    <div class="hero-ctas">
+      <a href="carta.html" class="btn magnetic" data-es>Ver carta</a><a href="carta.html" class="btn magnetic" data-en>See menu</a>
+      <a href="tienda.html" class="btn btn-ghost magnetic" data-es>Pedir online</a><a href="tienda.html" class="btn btn-ghost magnetic" data-en>Online shop</a>
+    </div>
+    <div class="hero-meta">
+      <div class="item">
+        <span class="k" data-es>Café</span><span class="k" data-en>Coffee</span>
+        <span class="v">Hidden Coffee Roasters</span>
+      </div>
+      <div class="item">
+        <span class="k" data-es>Valoración</span><span class="k" data-en>Rating</span>
+        <span class="v">4.8 &starf; · 2,500+ reviews</span>
+      </div>
+      <div class="item">
+        <span class="k" data-es>Horario</span><span class="k" data-en>Hours</span>
+        <span class="v">L–J 9:30–17h · V–D 9–19h</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<!-- ============ BRUNCH FOR ONE BANNER ============ -->
+<section class="brunch-banner">
+  <div class="brunch-banner-inner">
+    <div class="brunch-banner-text reveal-left reveal">
+      <span class="section-label" style="color:var(--terra)">Madrid</span>
+      <h2 class="brunch-banner-title" data-es>Brunch<br><em>for One</em></h2>
+      <h2 class="brunch-banner-title" data-en>Brunch<br><em>for One</em></h2>
+      <div class="brunch-banner-price">&euro;20.50 <span data-es>por persona</span><span data-en>per person</span></div>
+      <p data-es>Café + zumo + salado + dulce. Un ritual de mañana hecho con cariño, con granos de Hidden Coffee Roasters.</p>
+      <p data-en>Coffee + juice + savoury + sweet. A complete morning ritual crafted with care, featuring specialty beans from Hidden Coffee Roasters.</p>
+      <a href="carta.html" class="btn btn-cream magnetic" data-es>Ver carta &rarr;</a>
+      <a href="carta.html" class="btn btn-cream magnetic" data-en>View menu &rarr;</a>
+    </div>
+    <div class="brunch-banner-img reveal-right reveal">
+      <img src="img/food-eggs-benedict.jpg" alt="Brunch for One">
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEXT MARQUEE ============ -->
+<div class="marquee">
+  <div class="marquee-inner">
+    <span class="marquee-word">Brunch</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Specialty Coffee</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Lavapiés</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Hidden Roasters</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Poursteady V60</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Pancakes</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Equipo Mesón</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Berlín</span>
+    <span class="marquee-dot"></span>
+    <!-- duplicate for seamless loop -->
+    <span class="marquee-word">Brunch</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Specialty Coffee</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Lavapiés</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Hidden Roasters</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Poursteady V60</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Pancakes</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Equipo Mesón</span>
+    <span class="marquee-dot"></span>
+    <span class="marquee-word">Berlín</span>
+    <span class="marquee-dot"></span>
+  </div>
+</div>
+
+<!-- ============ ABOUT STRIP ============ -->
+<section class="about-strip">
+  <div class="about-strip-inner">
+    <div class="reveal-left reveal">
+      <span class="section-label" data-es>Nuestra historia</span>
+      <span class="section-label" data-en>Our story</span>
+      <h2 data-es>De Buenos Aires a Berlín.<br>De Berlín a <em>Lavapiés.</em></h2>
+      <h2 data-en>From Buenos Aires to Berlin.<br>From Berlin to <em>Lavapiés.</em></h2>
+      <p data-es>Juan y Caro dejaron Argentina para irse a Berlín, donde descubrieron el café de especialidad y la cultura del brunch. Junto a Gonzalo, el amigo de toda la vida, trajeron esa experiencia a Madrid.</p>
+      <p data-en>Juan and Caro left Argentina for Berlin, where they discovered specialty coffee and brunch culture. Together with Gonzalo, a lifelong friend, they brought that experience to Madrid.</p>
+      <a href="nuestra-historia.html" class="btn btn-ghost" data-es>Leer más</a>
+      <a href="nuestra-historia.html" class="btn btn-ghost" data-en>Read more</a>
+    </div>
+    <div class="about-photo reveal-right reveal">
+      <video autoplay muted loop playsinline>
+        <source src="img/pascal-interior.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SIGNATURE DISHES ============ -->
+<section class="signature">
+  <div class="signature-inner">
+    <div class="signature-header reveal">
+      <span class="section-label" data-es>Nuestro brunch</span>
+      <span class="section-label" data-en>Our brunch</span>
+      <h2 class="display-m" data-es>Los imprescindibles de la <em>mesa.</em></h2>
+      <h2 class="display-m" data-en>House <em>staples.</em></h2>
+    </div>
+    <div class="sig-grid stagger-children">
+      <article class="sig-card tilt-card stagger-item">
+        <div class="sig-media"><img src="img/food-avocado-toast.jpg" alt="Avocado Toast"></div>
+        <div class="sig-body">
+          <h3 class="sig-name">Avocado Toast</h3>
+          <p class="sig-desc" data-es>Limón, pistachos, hierbas frescas. Con opciones de huevo, salmón, burrata o bacon.</p>
+          <p class="sig-desc" data-en>Lemon zest, pistachios, fresh herbs. Add egg, salmon, burrata or bacon.</p>
+          <span class="sig-price">&euro;9.00</span>
+        </div>
+      </article>
+      <article class="sig-card tilt-card stagger-item">
+        <div class="sig-media"><img src="img/food-eggs-benedict.jpg" alt="Eggs Benedict"></div>
+        <div class="sig-body">
+          <h3 class="sig-name">Eggs Benedict</h3>
+          <p class="sig-desc" data-es>Elegí como acompañar tus huevos: pan mollete o croissant, con bacon o salmón.</p>
+          <p class="sig-desc" data-en>Choose your style: mollete bread or croissant, with bacon or salmon.</p>
+          <span class="sig-price">&euro;12.60</span>
+        </div>
+      </article>
+      <article class="sig-card tilt-card stagger-item">
+        <div class="sig-media"><img src="img/food-katsu-sando.jpg" alt="Chegusan"></div>
+        <div class="sig-body">
+          <h3 class="sig-name">Chegusan</h3>
+          <p class="sig-desc" data-es>Pollo, mozza, pesto, cebolla. El sándwich caliente que no te puedes perder.</p>
+          <p class="sig-desc" data-en>Chicken, mozzarella, pesto, onion. The hot sandwich you can't miss.</p>
+          <span class="sig-price">&euro;14.50</span>
+        </div>
+      </article>
+    </div>
+    <div style="text-align:center;margin-top:40px" class="reveal">
+      <a href="carta.html" class="btn magnetic" data-es>Ver carta &rarr;</a>
+      <a href="carta.html" class="btn magnetic" data-en>View menu &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SHOP TEASER ============ -->
+<section class="shop-teaser">
+  <div class="shop-teaser-inner reveal">
+    <span class="section-label" data-es>Pedir online</span>
+    <span class="section-label" data-en>Order online</span>
+    <h2 class="display-m" data-es>Prefiero comer<br>desde <em>casa.</em></h2>
+    <h2 class="display-m" data-en>I'd rather eat<br>from <em>home.</em></h2>
+    <p data-es>Monta tu pedido, elige la hora de recogida y listo. Sin colas, sin esperas.</p>
+    <p data-en>Build your order, choose your pickup time and done. No queues, no waiting.</p>
+    <div class="shop-preview stagger-children">
+      <div class="shop-preview-card tilt-card stagger-item">
+        <div class="card-img"><img src="img/food-avocado-toast.jpg" alt="Avocado Toast"></div>
+        <div class="card-body">
+          <div class="card-name">Avocado Toast</div>
+          <div class="card-price">&euro;9.00</div>
+        </div>
+      </div>
+      <div class="shop-preview-card tilt-card stagger-item">
+        <div class="card-img"><img src="img/food-eggs-benedict.jpg" alt="Eggs Benedict"></div>
+        <div class="card-body">
+          <div class="card-name">Eggs Benedict</div>
+          <div class="card-price">&euro;12.60</div>
+        </div>
+      </div>
+      <div class="shop-preview-card tilt-card stagger-item">
+        <div class="card-img"><img src="img/food-sandwich.jpg" alt="Chegusan"></div>
+        <div class="card-body">
+          <div class="card-name">Chegusan</div>
+          <div class="card-price">&euro;14.50</div>
+        </div>
+      </div>
+      <div class="shop-preview-card tilt-card stagger-item">
+        <div class="card-img"><img src="img/food-croissant-benedict.jpg" alt="Pancakes"></div>
+        <div class="card-body">
+          <div class="card-name">Pancakes</div>
+          <div class="card-price">&euro;10.80</div>
+        </div>
+      </div>
+    </div>
+    <a href="tienda.html" class="btn btn-terra" data-es>Pedir ahora &rarr;</a>
+    <a href="tienda.html" class="btn btn-terra" data-en>Order now &rarr;</a>
+  </div>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section class="location">
+  <div class="location-inner">
+    <div class="location-info reveal-left reveal">
+      <span class="section-label" data-es>Encuéntranos</span>
+      <span class="section-label" data-en>Find us</span>
+      <h2 class="display-m" data-es>Mesón de Paredes, <em>30.</em></h2>
+      <h2 class="display-m" data-en>Mesón de Paredes, <em>30.</em></h2>
+      <div class="location-detail">
+        <span class="label" data-es>Dirección</span><span class="label" data-en>Address</span>
+        <span class="value">C/ Mesón de Paredes, 30<br>28012 Madrid</span>
+      </div>
+      <div class="location-detail">
+        <span class="label">Metro</span>
+        <span class="value">Tirso de Molina (L1)</span>
+      </div>
+      <div class="location-detail">
+        <span class="label" data-es>Horario</span><span class="label" data-en>Hours</span>
+        <span class="value" data-es>Lun–Jue 9:30–17:00<br>Vie–Dom 9:00–19:00</span>
+        <span class="value" data-en>Mon–Thu 9:30–17:00<br>Fri–Sun 9:00–19:00</span>
+      </div>
+      <div class="location-detail">
+        <span class="label" data-es>Teléfono</span><span class="label" data-en>Phone</span>
+        <span class="value"><a href="tel:+34696533662">+34 696 53 36 62</a></span>
+      </div>
+      <a href="https://maps.google.com/?q=Pascal+Cafe+Madrid+Meson+de+Paredes+30" target="_blank" class="btn" data-es>Cómo llegar &rarr;</a>
+      <a href="https://maps.google.com/?q=Pascal+Cafe+Madrid+Meson+de+Paredes+30" target="_blank" class="btn" data-en>Get directions &rarr;</a>
+    </div>
+    <div class="location-map reveal-right reveal">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.8!2d-3.7033!3d40.4095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI0JzM0LjIiTiAzwrA0MicxMS45Ilc!5e0!3m2!1ses!2ses!4v1" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo"><img src="img/pascal-logo-circle.png" alt="Pascal"></div>
+      <p data-es>Specialty coffee & brunch de autor en Lavapiés, Madrid. Parte de Equipo Mesón.</p>
+      <p data-en>Specialty coffee & signature brunch in Lavapiés, Madrid. Part of Equipo Mesón.</p>
+    </div>
+    <div>
+      <h4 data-es>Navegar</h4><h4 data-en>Navigate</h4>
+      <ul>
+        <li><a href="carta.html" data-es>Carta</a><a href="carta.html" data-en>Menu</a></li>
+        <li><a href="tienda.html" data-es>Pedir online</a><a href="tienda.html" data-en>Order online</a></li>
+        <li><a href="nuestra-historia.html" data-es>Nuestra historia</a><a href="nuestra-historia.html" data-en>Our story</a></li>
+        <li><a href="visitanos.html" data-es>Visítanos</a><a href="visitanos.html" data-en>Visit</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-es>Contacto</h4><h4 data-en>Contact</h4>
+      <ul>
+        <li><a href="tel:+34696533662">+34 696 53 36 62</a></li>
+        <li><a href="mailto:pascal@equipomeson.com">pascal@equipomeson.com</a></li>
+        <li><a href="https://instagram.com/pascal.cafe" target="_blank">@pascal.cafe</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Equipo Mesón</h4>
+      <ul>
+        <li><a href="#">Pascal Coffee & Brunch</a></li>
+        <li><a href="#">Lizandro</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Pascal — Equipo Mesón</span>
+    <span data-es>Concepto por <a href="https://obradorweb.com" target="_blank" style="color:var(--terra);text-decoration:none">Obrador</a></span>
+    <span data-en>Concept by <a href="https://obradorweb.com" target="_blank" style="color:var(--terra);text-decoration:none">Obrador</a></span>
+  </div>
+</footer>
+
+<!-- Cart sidebar -->
+<div class="cart-overlay"></div>
+<div class="cart-sidebar">
+  <div class="cart-header">
+    <h3 data-es>Tu carrito</h3><h3 data-en>Your cart</h3>
+    <button class="cart-close">&times;</button>
+  </div>
+  <div class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span class="total-label">Total</span>
+      <span class="total-price">&euro;0.00</span>
+    </div>
+    <button class="checkout-btn" data-es>Tramitar pedido</button>
+    <button class="checkout-btn" data-en>Checkout</button>
+  </div>
+</div>
+
+<script src="js/lang.js"></script>
+<script src="js/shop.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
